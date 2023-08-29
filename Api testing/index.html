@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Api testing</title>
+
+    <style>
+
+        .user-list{
+            margin: 30px 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        table{
+            border: 1px solid black;
+        }
+
+        th{
+            text-align: center;
+            padding: 10px 20px;
+            border: 1px solid black;
+        }
+
+
+        td{
+            text-align: center;
+            padding: 10px 20px;
+            border: 1px solid black;
+        }
+
+
+        button.view-user{
+            padding: 12px 25px;
+            background-color: blueviolet;
+            color: white;
+            border: none;
+            outline: none;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <h1>User Details</h1>
+    </center>
+
+    <section class="user-list">
+        <table id="user-table">
+            <tr>
+                <th>User Id</th>
+                <th>User Name</th>
+                <th>User Email</th>
+            </tr>
+        </table>
+    </section>
+
+    <center>
+        <button id="fetch-user" class="view-user">View User</button>
+    </center>
+
+    <script src="../Api testing/app.js"></script>
+</body>
+</html>
