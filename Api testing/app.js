@@ -19,6 +19,8 @@ document.getElementById('fetch-user').addEventListener('click', function(){
             <td>${user.id}</td>
             <td>${user.name}</td>
             <td>${user.email}</td>
+            <td>${user.address.city}</td>
+            <td>${user.phone}</td>
             `;
 
             userTable.appendChild(userData);
